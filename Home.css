@@ -1,0 +1,140 @@
+/* CSS untuk Tema Hitam */
+body {
+    background-color: white; /* Latar belakang hitam */
+    color: #ffffff; /* Teks berwarna putih */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #ffcc00; /* Tajuk dengan warna emas */
+}
+
+a {
+    color: #ff5722; /* Warna pautan oren */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ff9800; /* Pautan hover lebih cerah */
+}
+
+/* Bahagian video */
+.video-section {
+    text-align: center;
+    padding: 20px;
+}
+
+.video-section h2 {
+    margin-bottom: 20px;
+}
+
+video {
+    border: 2px solid #ffcc00;
+    border-radius: 10px;
+}
+
+/* Bahagian produk */
+.products {
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.box-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Memusatkan semua butang dalam kotak produk */
+.box {
+    background-color: #1e1e1e;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Teks dalam kotak produk menjadi putih */
+.box .name, .box .price, .box .qty {
+    color: #ffffff; /* Teks putih */
+}
+
+/* Butang "Add to Cart" */
+.box .btn {
+    background-color: #ff5722;
+    color: #ffffff; /* Teks putih pada butang */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: auto;
+    margin-top: 10px;
+}
+
+.box .btn:hover {
+    background-color: #ff9800;
+}
+
+/* Memusatkan butang "Load More" */
+.load-more {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.load-more .option-btn {
+    background-color: #ff5722;
+    color: #ffffff; /* Teks putih pada butang "Load More" */
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.load-more .option-btn:hover {
+    background-color: #ff9800;
+}
+
+/* Memastikan teks dalam video-section juga putih */
+.video-section h2 {
+    color: #ffffff; /* Teks putih */
+}
+
+/* Memastikan teks dalam home-contact juga putih */
+.home-contact .content h3, .home-contact .content p {
+    color: #ffffff; /* Teks putih */
+}
+
+
+.white-btn {
+    background-color: #ffcc00;
+    color: #121212;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.white-btn:hover {
+    background-color: #ff9800;
+}
+
+/* Footer */
+footer {
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
